@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 10 rem;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    width: 85%;
+    align-items: center;
+    gap: 4rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: grey;
+}
+
+.reng {
+    color: #fff;
+}
+
+.Items:hover {
+    color: #fff;
+}
+
+.text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-size: 2rem;
+    color: #fff;
+
+}
+
+button {
+    font-size: 14px;
+    background-color: black;
+    color: #fff;
+    border-color: orange;
+    margin: 2rem;
+    width: 180px;
+    height: 45px;
+}
+
+button:hover {
+    background-color: orange;
+    font-size: 19px;
+}
+
+.anadiv {
+    margin: 2rem;
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+}
+
+.boxes {
+    width: 70%;
+    height: 350px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.site {
+    margin: 0 0 20px 0;
+}
+
+.site1 {
+    margin: 10px 0;
+}
+
+h1 {
+    color: orange;
+    font-size: 30px;
+}
+
+p{
+    color: white;
+}
+.Our{
+    width: 65%;
+    height: 400px;
+    margin: 0 auto;
+    
+}
+.services{
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+.metn{
+    color: rgb(160, 160, 160);
+}
